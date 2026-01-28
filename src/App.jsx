@@ -10,6 +10,7 @@ import ProductDetail from './pages/productDetail/ProductDetail'
 function App() {
   return (
     <>
+<<<<<<< HEAD
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -24,6 +25,28 @@ function App() {
 
 
 
+=======
+        <div>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+>>>>>>> c78df7ae0f0057293ed6a55cf81cbdc5677a7f29
     </>
   )
 }
